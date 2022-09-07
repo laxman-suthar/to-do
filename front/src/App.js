@@ -125,7 +125,7 @@ class App extends Component {
       return;
     }
     axios
-      .post("/http://127.0.0.1:8000/api/", item)
+      .post("http://127.0.0.1:8000/api/", item)
       .then((res) => this.refreshList());
   };
 
